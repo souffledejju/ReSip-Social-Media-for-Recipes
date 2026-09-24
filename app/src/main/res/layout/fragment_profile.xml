@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FAF8F5">
+
+    <!-- Profile Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_profile" />
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bambang Hermansyah"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <!-- Group 1: Profile and Setting -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile and Setting"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Button android:id="@+id/btnEditProfile" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Edit Profile" />
+    <Button android:id="@+id/btnSettings" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Setting" />
+
+    <!-- Group 2: More info and support -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More info and support"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button android:id="@+id/btnHelp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Help" />
+    <Button android:id="@+id/btnCustomerService" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Customer Service" />
+
+    <!-- Group 3: Logout -->
+    <Button android:id="@+id/btnLogout" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Log Out" android:layout_marginTop="16dp" />
+
+</LinearLayout>

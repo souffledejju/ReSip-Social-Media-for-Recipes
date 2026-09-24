@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ReSiP</string>
+
+    <string name="desc_recipe_header">Recipe Header Image</string>
+    <string name="recipe_title_sate">Nama Resep</string>
+    <string name="recipe_desc_sate">Deskripsi lengkap mengenai resep akan dimuat secara dinamis.</string>
+
+    <string name="desc_time">Time Icon</string>
+    <string name="label_waktu">WAKTU</string>
+    <string name="val_time_15">-- Menit</string>
+
+    <string name="desc_portion">Portion Icon</string>
+    <string name="label_porsi">PORSI</string>
+    <string name="val_porsi_4">-- Porsi</string>
+
+    <string name="desc_calories">Calories Icon</string>
+    <string name="label_kalori">KALORI</string>
+    <string name="val_calories_380">-- kcal</string>
+
+    <string name="label_estimasi_biaya">Estimasi Biaya</string>
+    <string name="val_price_30">Rp --</string>
+
+    <string name="num_1">1</string>
+    <string name="step_1_title">Langkah 1</string>
+    <string name="step_time_10">-- Menit</string>
+    <string name="desc_expand_arrow">Expand Arrow Icon</string>
+    <string name="step_1_detail">Detail penjelasan langkah pertama.</string>
+
+    <string name="num_2">2</string>
+    <string name="step_2_title">Langkah 2</string>
+    <string name="step_2_detail">Detail penjelasan langkah kedua.</string>
+
+    <string name="desc_back_button">Back Navigation Button</string>
+
+    <string name="search_hint">Cari resep...</string>
+    <string name="profile_icon_desc">Profile Menu</string>
+    <string name="recommendations_title">Rekomendasi Hari Ini</string>
+</resources>
